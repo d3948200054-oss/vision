@@ -62,24 +62,10 @@ This project is a React + TypeScript app built with Vite and integrates with the
 npm install
 ```
 
-### 2) Configure environment variables
-
-Copy the example environment file and fill in your values:
-
-```bash
-cp .env.example .env.local
-```
-
-Then update `.env.local` with your Gemini key and app URL:
-
-```env
-GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
-APP_URL="http://localhost:3000"
-```
 
 If you are running this inside AI Studio, you can also configure the same secrets in the platform’s Secrets panel instead of using a local `.env.local` file.
 
-### 3) Run the app locally
+### 2) Run the app locally
 
 ```bash
 npm run dev
@@ -108,7 +94,6 @@ npm run preview
 ## Notes
 
 - The app uses `vite --port=3000 --host=0.0.0.0` for local development.
-- `GEMINI_API_KEY` is required for AI-related functionality.
 - `APP_URL` is used for app-level links and runtime callbacks.
 
 ## License
