@@ -1,0 +1,6 @@
+{
+  "name": "Vision Classes - Coaching Management & Learning Portal",
+  "description": "Comprehensive coaching management platform for grades 5-12 featuring teacher-controlled enrollment, personal performance dashboards, 1-on-1 messaging, study materials, homework tracking, and interactive QR fee payments with automated due date reminders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

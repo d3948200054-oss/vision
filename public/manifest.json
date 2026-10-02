@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "Vision Classes App",
+  "short_name": "Vision App",
+  "description": "Premier Coaching Management Portal for grades 5-12 with live classes, study materials, homework, and QR fee payments.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#090d16",
+  "theme_color": "#0d9488",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
